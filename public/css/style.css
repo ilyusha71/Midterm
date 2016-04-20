@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 30px;
+}
+
+.name {
+	display: inline-block;
+	width: 300px;
+}
+
+button{
+	margin-top: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid #999;
+}
+
+ul {
+	list-style-position: outside;
+	list-style: none;
+	padding: 0px;
+}
+
+.role
+{
+	background:#000 url("images/starry.png") fixed repeat;
+	width:1240px;
+	margin:auto;
+	height:1000px;
+	overflow:hidden /* flex body */
+}
+.left_role, .mid_role, .right_role
+{
+	background:#663;
+	width:400px;
+	height: 400px;
+	float:left;
+	overflow: hidden;	
+	margin:10px 0px;
+}
+.left_role
+{
+	margin-left:10px;
+	margin-right:5px;
+}
+.mid_role
+{
+	margin-left:5px;
+	margin-right:5px;
+}
+.right_role
+{
+	margin-left:5px;
+	margin-right:10px;
+}
